@@ -1,0 +1,18 @@
+{
+  "name": "porto-neon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Porto Neon — protótipo multiplayer de vida urbana em pixel art",
+  "main": "server.js",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "chess.js": "1.4.0",
+    "express": "5.2.1",
+    "socket.io": "4.8.3"
+  }
+}
